@@ -3,6 +3,9 @@
     "framework-tests": "./vendor/bin/phpunit -c ./phpunit.xml --testsuite framework",
     "application-tests": "./vendor/bin/phpunit -c ./phpunit.xml --testsuite application"
   },
+  "require": {
+    "psr/container": "2.0.2"
+  },
   "autoload": {
     "psr-4": {
       "App\\": "src/",
